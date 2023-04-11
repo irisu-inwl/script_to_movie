@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "movie-gen"
+version = "0.1.0"
+description = ""
+authors = ["irisuinwl <iris.dimension.eee@gmail.com>"]
+readme = "README.md"
+packages = [{include = "movie_gen"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyYAML = "^6.0"
+requests = "^2.28.2"
+numpy = "^1.24.2"
+moviepy = "^1.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
